@@ -113,6 +113,7 @@
 // }
 
 import 'package:first_app/answers.dart';
+import 'package:first_app/home_page.dart';
 import 'package:first_app/questions.dart';
 import 'package:flutter/material.dart';
 
@@ -126,13 +127,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Welcome"),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
